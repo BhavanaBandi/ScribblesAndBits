@@ -1,2 +1,2 @@
-# ScribblesAndBits
+# Scribbles & Bits
 My junk journal
