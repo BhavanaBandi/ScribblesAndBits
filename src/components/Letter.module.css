@@ -1,0 +1,37 @@
+.wrap {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  margin: 2.5rem auto 4rem;
+  padding: 0 1rem;
+}
+
+.paper {
+  position: relative;
+  background: var(--paper-soft);
+  padding: clamp(1.75rem, 5vw, 3.25rem);
+  border-radius: 2px;
+  transform: rotate(-0.4deg);
+  box-shadow: 0 20px 40px -20px var(--shadow), 0 2px 6px var(--shadow);
+  clip-path: polygon(
+    0.5% 1%,
+    30% 0%,
+    70% 0.6%,
+    99.4% 0%,
+    100% 30%,
+    99.5% 70%,
+    100% 99%,
+    65% 100%,
+    30% 99.4%,
+    0% 100%,
+    0.6% 65%,
+    0% 30%
+  );
+}
+
+.tapeCorner {
+  position: absolute;
+  top: -0.9rem;
+  left: 10%;
+  z-index: 3;
+}

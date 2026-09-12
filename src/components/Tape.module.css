@@ -1,0 +1,37 @@
+.tape {
+  --tape-color: rgba(207, 154, 62, 0.55);
+  display: inline-block;
+  width: 4.5rem;
+  height: 1.6rem;
+  background: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.25) 0,
+      rgba(255, 255, 255, 0.25) 2px,
+      transparent 2px,
+      transparent 6px
+    ),
+    var(--tape-color);
+  clip-path: polygon(
+    2% 15%,
+    8% 0%,
+    20% 10%,
+    35% 0%,
+    50% 12%,
+    65% 0%,
+    80% 10%,
+    93% 0%,
+    100% 20%,
+    94% 45%,
+    100% 65%,
+    92% 100%,
+    78% 88%,
+    62% 100%,
+    48% 90%,
+    32% 100%,
+    18% 90%,
+    6% 100%,
+    0% 80%
+  );
+  box-shadow: 0 2px 4px var(--shadow);
+  opacity: 0.85;
+}

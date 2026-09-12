@@ -1,0 +1,129 @@
+.screen {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.25rem 3rem;
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  background: var(--paper-soft);
+  padding: 2.25rem 1.75rem;
+  border-radius: 2px;
+  text-align: center;
+  box-shadow: 0 20px 40px -18px var(--shadow), 0 2px 6px var(--shadow);
+  transform: rotate(-0.6deg);
+  clip-path: polygon(
+    1% 2%,
+    35% 0%,
+    65% 0.5%,
+    99% 0%,
+    100% 32%,
+    99.4% 68%,
+    100% 99%,
+    62% 100%,
+    35% 99.5%,
+    0% 100%,
+    0.5% 66%,
+    0% 30%
+  );
+}
+
+.tape {
+  position: absolute;
+  top: -0.9rem;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+}
+
+.greeting {
+  font-family: var(--font-hand);
+  font-size: clamp(1.7rem, 6vw, 2.3rem);
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+}
+
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  margin: 0 0 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.label {
+  font-family: var(--font-hand);
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+}
+
+.input {
+  width: 100%;
+  max-width: 220px;
+  padding: 0.55rem 0.9rem;
+  font-family: var(--font-hand);
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--ink);
+  background: var(--paper);
+  border: none;
+  border-bottom: 2px dashed var(--line);
+  border-radius: 0;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom-color: var(--rose);
+}
+
+.button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: var(--paper-soft);
+  background: var(--ink);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.button:hover {
+  transform: scale(1.04);
+  background: var(--rose);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+}
+
+.emptyNote {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--ink-soft);
+  margin-top: 0.5rem;
+}
+
+.archiveLink {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+  color: var(--sky);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+}

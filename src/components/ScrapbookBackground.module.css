@@ -1,0 +1,42 @@
+.field {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.item {
+  position: absolute;
+  display: none;
+  color: var(--ink-soft);
+}
+
+.always {
+  display: block;
+}
+
+.tablet,
+.desktop {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .tablet {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .desktop {
+    display: block;
+  }
+}
+
+.note {
+  font-family: var(--font-hand);
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  opacity: 0.75;
+  white-space: nowrap;
+}

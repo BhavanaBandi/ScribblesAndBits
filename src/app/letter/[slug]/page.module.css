@@ -1,0 +1,21 @@
+.topbar {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 0;
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+}
+
+.topbar a {
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.topbar a:hover {
+  color: var(--rose);
+}

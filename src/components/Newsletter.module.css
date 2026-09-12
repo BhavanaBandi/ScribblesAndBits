@@ -1,0 +1,68 @@
+.header {
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+
+.date {
+  font-family: var(--font-hand);
+  font-size: 1.15rem;
+  color: var(--rose);
+  margin: 0 0 0.35rem;
+}
+
+.title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.6rem, 5vw, 2.3rem);
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.underline {
+  display: block;
+  margin: 0.4rem auto 0;
+}
+
+.prose {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: var(--ink);
+}
+
+.prose p {
+  margin: 0 0 1.15em;
+}
+
+.prose blockquote {
+  margin: 1.5em 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--line);
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.prose a {
+  color: var(--sky);
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-family: var(--font-hand);
+  color: var(--ink);
+  margin: 1.4em 0 0.5em;
+}
+
+.prose ul,
+.prose ol {
+  margin: 0 0 1.15em;
+  padding-left: 1.4em;
+}
+
+.prose img {
+  max-width: 100%;
+  border-radius: 2px;
+}

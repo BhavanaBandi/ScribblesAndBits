@@ -1,0 +1,24 @@
+.stamp {
+  --stamp-color: var(--sky);
+  position: relative;
+  width: 3.6rem;
+  height: 4.4rem;
+  background: var(--paper-soft);
+  border: 3px dashed var(--stamp-color);
+  outline: 1px solid var(--stamp-color);
+  outline-offset: 3px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--stamp-color);
+  box-shadow: 0 2px 5px var(--shadow);
+}
+
+.label {
+  font-family: var(--font-hand);
+  font-size: 0.65rem;
+  position: absolute;
+  bottom: 2px;
+  color: var(--ink-soft);
+}

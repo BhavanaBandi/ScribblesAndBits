@@ -1,0 +1,40 @@
+.cornerNav {
+  position: fixed;
+  top: 0.75rem;
+  left: 1rem;
+  z-index: 50;
+  font-family: var(--font-hand);
+  font-size: 1.25rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+  transform: rotate(-2deg);
+  transition: transform 0.2s ease;
+}
+
+.cornerNav:hover {
+  transform: rotate(-2deg) scale(1.05);
+  color: var(--rose);
+}
+
+.footer {
+  position: relative;
+  z-index: 5;
+  margin-top: auto;
+  padding: 2rem 1rem 1.5rem;
+  text-align: center;
+  font-family: var(--font-hand);
+  font-size: 1rem;
+  color: var(--ink-soft);
+}
+
+.shell {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  width: 100%;
+}

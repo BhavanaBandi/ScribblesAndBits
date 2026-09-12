@@ -1,0 +1,74 @@
+:root {
+  --paper: #f7f0e3;
+  --paper-soft: #fbf6ec;
+  --paper-deep: #e3d2ab;
+  --ink: #352c22;
+  --ink-soft: #6f6152;
+  --rose: #c97b7b;
+  --sage: #7f9271;
+  --mustard: #cf9a3e;
+  --sky: #7c9bab;
+  --line: rgba(53, 44, 34, 0.18);
+  --shadow: rgba(53, 44, 34, 0.22);
+
+  --font-hand: var(--font-caveat), cursive;
+  --font-serif: var(--font-serif-base), Georgia, serif;
+  --font-sans: var(--font-sans-base), -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(rgba(53, 44, 34, 0.05) 1px, transparent 1px);
+  background-size: 3px 3px;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--mustard);
+  color: var(--paper-soft);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

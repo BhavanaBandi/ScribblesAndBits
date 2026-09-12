@@ -1,0 +1,99 @@
+.grid {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem 1.25rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+}
+
+.empty {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: var(--font-hand);
+  font-size: 1.3rem;
+  color: var(--ink-soft);
+  padding: 3rem 1rem;
+}
+
+.card {
+  position: relative;
+  display: block;
+  width: 9.5rem;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.2s ease;
+}
+
+.card:hover,
+.card:focus-visible {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.card:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 3px;
+}
+
+.envelopeShape {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1.4;
+  background: var(--paper-soft);
+  box-shadow: 0 10px 20px -10px var(--shadow);
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.envelopeShape::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  height: 55%;
+  background: linear-gradient(160deg, var(--paper-deep), var(--paper-soft));
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+
+.labels {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.month {
+  display: block;
+  font-family: var(--font-hand);
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.year {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  color: var(--ink-soft);
+}
+
+.tapeAccent {
+  position: absolute;
+  top: -0.5rem;
+  left: 28%;
+  z-index: 3;
+}
+
+.note {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-hand);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  text-align: center;
+}

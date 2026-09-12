@@ -1,0 +1,145 @@
+.stage {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  perspective: 1400px;
+}
+
+.envelope {
+  position: relative;
+  width: clamp(270px, 78vw, 400px);
+  aspect-ratio: 1.5;
+  background: var(--paper-deep);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  clip-path: polygon(
+    0% 2%,
+    3% 0%,
+    97% 0%,
+    100% 3%,
+    99% 50%,
+    100% 97%,
+    96% 100%,
+    4% 100%,
+    0% 96%,
+    1% 50%
+  );
+  box-shadow: 0 22px 34px -16px var(--shadow), 0 4px 10px var(--shadow);
+  outline: 1px solid rgba(53, 44, 34, 0.12);
+  outline-offset: -1px;
+  transition: transform 0.2s ease;
+}
+
+.envelope:hover:not(:disabled) {
+  transform: translateY(-3px);
+}
+
+.envelope:focus-visible {
+  outline: 2px solid var(--sky);
+  outline-offset: 4px;
+}
+
+.envelope:disabled {
+  cursor: default;
+}
+
+.flap {
+  position: absolute;
+  inset: 0;
+  height: 58%;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background: linear-gradient(200deg, var(--paper-soft) 0%, var(--paper-deep) 75%);
+  filter: drop-shadow(0 3px 4px rgba(53, 44, 34, 0.28));
+  transform-origin: top center;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  z-index: 2;
+}
+
+.seal {
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background: var(--rose);
+  color: var(--paper-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 3px 6px var(--shadow);
+  z-index: 3;
+}
+
+.stampWrap {
+  position: absolute;
+  top: 6%;
+  right: 6%;
+  z-index: 4;
+}
+
+.tapeTL {
+  position: absolute;
+  top: -0.6rem;
+  left: 8%;
+  z-index: 4;
+}
+
+.tapeTR {
+  position: absolute;
+  bottom: -0.6rem;
+  right: 12%;
+  z-index: 4;
+}
+
+.frontText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8%;
+  z-index: 2;
+  text-align: center;
+  padding: 0 1.5rem;
+}
+
+.greeting {
+  font-family: var(--font-hand);
+  font-weight: 600;
+  font-size: clamp(1.5rem, 5vw, 2.1rem);
+  color: var(--ink);
+  margin: 0;
+}
+
+.subtext {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+  margin: 0.35rem 0 0;
+}
+
+.letterPeek {
+  position: absolute;
+  left: 7%;
+  right: 7%;
+  bottom: 5%;
+  height: 78%;
+  z-index: 5;
+  background: var(--paper-soft);
+  border-radius: 2px;
+  box-shadow: 0 -6px 18px -6px var(--shadow);
+  transform: rotate(-0.6deg);
+}
+
+.hint {
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
