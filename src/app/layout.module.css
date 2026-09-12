@@ -6,14 +6,8 @@
   font-family: var(--font-hand);
   font-size: 1.25rem;
   color: var(--ink-soft);
-  text-decoration: none;
+  margin: 0;
   transform: rotate(-2deg);
-  transition: transform 0.2s ease;
-}
-
-.cornerNav:hover {
-  transform: rotate(-2deg) scale(1.05);
-  color: var(--rose);
 }
 
 .footer {

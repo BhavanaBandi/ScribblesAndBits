@@ -1,5 +1,4 @@
 import { Caveat, Lora, Inter } from "next/font/google";
-import Link from "next/link";
 import ScrapbookBackground from "@/components/ScrapbookBackground";
 import PageTransition from "@/components/PageTransition";
 import "./globals.css";
@@ -38,9 +37,7 @@ export default function RootLayout({ children }) {
       <body>
         <div className={styles.shell}>
           <ScrapbookBackground />
-          <Link href="/" className={styles.cornerNav}>
-            my little corner ♡
-          </Link>
+          <p className={styles.cornerNav}>my little corner ♡</p>
           <main className={styles.main}>
             <PageTransition>{children}</PageTransition>
           </main>
