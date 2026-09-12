@@ -71,7 +71,7 @@
 
 .seal {
   position: absolute;
-  top: 38%;
+  top: 50%;
   left: 50%;
   /* Centered via negative margins, not a CSS transform: framer-motion
      drives this element's transform (scale/rotate) directly and would
