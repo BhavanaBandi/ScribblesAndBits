@@ -18,7 +18,7 @@ Sometimes, it looks like getting your first salary. Sometimes, it looks like mak
 
 And sometimes, apparently, it looks like getting a nail cutter.
 
-I have a terrible habit of biting my nails. I've done it for years. It's one of those tiny habits that you don't even think about anymore — you just find yourself doing it.
+I have a terrible habit of biting my nails. I've done it for years. It's one of those tiny habits that you don't even think about anymore, you just find yourself doing it.
 
 But today, I noticed my nails getting long, and instead of biting them, I went and got a nail cutter.
 
@@ -102,7 +102,7 @@ Just enough to remember that nobody is finished becoming who they are.
 
 And I think the same applies to us.
 
-We are constantly looking for some grand indication that we've grown. We want the career, the relationship, the confidence, the independence — something tangible that proves we're moving forward.
+We are constantly looking for some grand indication that we've grown. We want the career, the relationship, the confidence, the independence, something tangible that proves we're moving forward.
 
 But maybe we should pay more attention to the tiny things.
 
@@ -177,4 +177,5 @@ Even if it looks ridiculously small.
 It still counts.
 
 Yours with a smile,
+
 Bhavana
