@@ -35,6 +35,14 @@
   transition: transform 0.2s ease;
 }
 
+@media (max-width: 420px) {
+  /* Shorter width means less vertical room per aspect-ratio; go taller
+     relatively so the seal and greeting text below it don't collide. */
+  .envelope {
+    aspect-ratio: 1.15;
+  }
+}
+
 .envelope:hover:not(:disabled) {
   transform: translateY(-3px);
 }
@@ -63,8 +71,12 @@
 
 .seal {
   position: absolute;
-  top: 44%;
+  top: 38%;
   left: 50%;
+  /* Centered via negative margins, not a CSS transform: framer-motion
+     drives this element's transform (scale/rotate) directly and would
+     silently override a transform set here. */
+  margin: -1.3rem 0 0 -1.3rem;
   width: 2.6rem;
   height: 2.6rem;
   border-radius: 50%;

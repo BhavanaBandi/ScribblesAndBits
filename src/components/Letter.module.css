@@ -13,19 +13,28 @@
   border-radius: 2px;
   transform: rotate(-0.4deg);
   box-shadow: 0 20px 40px -20px var(--shadow), 0 2px 6px var(--shadow);
+  /* Every y-coordinate here is a small fixed pixel offset, never a
+     percentage. The letter's total height grows with how long the
+     newsletter is (it can run to several thousand px on a narrow phone),
+     and a percentage-based "torn edge" that looked like a subtle corner
+     nick on a short page turns into a huge diagonal slice on a tall one,
+     cutting into the header. Pixels keep the nick the same tiny size no
+     matter how long the letter is. */
   clip-path: polygon(
-    0.5% 1%,
-    30% 0%,
-    70% 0.6%,
-    99.4% 0%,
-    100% 30%,
-    99.5% 70%,
-    100% 99%,
-    65% 100%,
-    30% 99.4%,
-    0% 100%,
-    0.6% 65%,
-    0% 30%
+    10px 3px,
+    25% 0px,
+    50% 2px,
+    75% 0px,
+    calc(100% - 10px) 3px,
+    100% 12px,
+    100% calc(100% - 12px),
+    calc(100% - 10px) calc(100% - 3px),
+    75% 100%,
+    50% calc(100% - 2px),
+    25% 100%,
+    10px calc(100% - 3px),
+    0px calc(100% - 12px),
+    0px 12px
   );
 }
 
