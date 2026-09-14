@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import { Caveat, Lora, Inter } from "next/font/google";
 import ScrapbookBackground from "@/components/ScrapbookBackground";
 import PageTransition from "@/components/PageTransition";
@@ -45,6 +46,7 @@ export default function RootLayout({ children }) {
             made with love &amp; questionable amounts of caffeine
           </p>
         </div>
+        <Analytics />
       </body>
     </html>
   );
