@@ -2,8 +2,8 @@
 
 A personal, junk-journal-style newsletter site. Visitors type their name, open a
 personalised envelope, and read the current letter — then can browse past
-editions in the archive. Read-only for everyone but you: publishing a new
-letter is just adding a Markdown file.
+editions in the archive, and leave a little note in the comments.
+Publishing a new letter is just adding a Markdown file.
 
 ## Running it locally
 
@@ -41,6 +41,16 @@ running while you're using the site; `Ctrl+C` stops it.
 
 No component code needs to change to add, remove, or reorder letters.
 
+## Comments
+
+Each letter page has a small comment section (`src/components/Comments.jsx`),
+powered by [giscus](https://giscus.app) — comments are stored as GitHub
+Discussions on this repo, so there's still no database to run. Discussions is
+enabled on the repo and the giscus app is installed, so this already works;
+the repo/category ids live as constants at the top of `Comments.jsx`. If you
+ever need to regenerate them (e.g. a different category), get the new values
+from [giscus.app](https://giscus.app) and swap them in there.
+
 ## Project structure
 
 ```
@@ -51,8 +61,9 @@ src/
     letter/[slug]/page.js  reading page for one newsletter
     archive/page.js        scattered-envelopes archive of past letters
     layout.js              fonts, background, corner nav, footer
-  components/              Envelope, Letter, Newsletter, Archive, and the
-                            decorative doodle/tape/stamp/background pieces
+  components/              Envelope, Letter, Newsletter, Comments, Archive,
+                            and the decorative doodle/tape/stamp/background
+                            pieces
   lib/newsletters.js       reads and parses the Markdown files
 ```
 
@@ -60,7 +71,8 @@ src/
 
 Next.js (App Router) · Framer Motion for the envelope-opening and
 page-transition animations · CSS Modules · Markdown (`gray-matter` +
-`remark`) for content. No database — everything is static files.
+`remark`) for content · giscus for comments. No database of our own —
+letters are static files and comments live in GitHub Discussions.
 
 ## Deploying
 

@@ -1,0 +1,24 @@
+.wrap {
+  position: relative;
+  z-index: 2;
+  max-width: 640px;
+  margin: -1.5rem auto 4rem;
+  padding: 0 1rem;
+}
+
+.heading {
+  font-family: var(--font-hand);
+  font-size: 1.3rem;
+  color: var(--rose-dark);
+  text-align: center;
+  margin: 0 0 0.35rem;
+}
+
+.underline {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.embed {
+  min-height: 150px;
+}

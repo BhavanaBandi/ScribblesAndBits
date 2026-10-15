@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Letter from "@/components/Letter";
 import Newsletter from "@/components/Newsletter";
+import Comments from "@/components/Comments";
 import { getAllSlugs, getNewsletterBySlug } from "@/lib/newsletters";
 import styles from "./page.module.css";
 
@@ -33,6 +34,7 @@ export default async function LetterPage({ params }) {
       <Letter>
         <Newsletter newsletter={newsletter} />
       </Letter>
+      <Comments key={newsletter.slug} />
     </>
   );
 }
