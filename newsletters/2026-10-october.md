@@ -1,0 +1,69 @@
+---
+title: "Maybe I do love being loved"
+month: "October"
+year: 2026
+---
+
+I realised I'm spoiled.
+
+And I don't mean in the way people usually use the word. I mean that somewhere along the way, I have been loved so thoroughly, so thoughtfully, and in so many little ways that I have developed a rather unreasonable standard for how I expect to be loved.
+
+It was my birthday month, and I think birthdays have a funny way of making you notice things. You're so busy counting the people who show up, the gifts you receive, the messages that come in at midnight, that you sometimes forget to look at what these things are actually telling you. And this year, somewhere between all the little things people did for me, I realised that I am, in fact, a very spoiled girl.
+
+I have friends who knew I was trying to give up Coke because of the sugar, so they got me a ceramic Diet Coke mug. Not because I needed another mug, but because they knew I would miss the feeling of drinking Coke, and this way, I could still have the placebo effect whenever I drank something else out of it. Think about that for a second. Someone took a tiny, almost ridiculous detail about my life, remembered it, and found a way to make the thing I was giving up a little easier to let go of.
+
+Then there is the friend who got me a notebook simply because the quote on it reminded her of me. No occasion, no elaborate reason. She saw a sentence printed on a notebook, thought of me, and that was enough.
+
+Or my friends who, while shopping for Valentine's Day gifts for their significant others, spotted a pen with a unicorn on it and immediately thought of me. Imagine being so deeply associated with something as wonderfully silly as a unicorn that your friends cannot go shopping for their partners without finding something that reminds them of you.
+
+And then there is my family, who know perfectly well that I cannot handle spicy chips. Yet, whenever there is a packet open, someone will inevitably sift through it to find the chip with the least amount of spice and hand it to me. Nobody announces it. Nobody expects a thank-you speech. They just know that I want the chips but cannot handle the consequences, and somehow, this has become a problem everyone around me is willing to solve.
+
+I think that is what got me.
+
+Not the gifts themselves, but the thought behind them. The fact that people have paid enough attention to me to know what makes me happy, what makes me uncomfortable, what I am trying to change about myself, and what little things make me who I am. They remember things I have probably forgotten telling them. They see things in shops and think of me. They make room for my little inconveniences, my oddly specific preferences, and my very dramatic inability to eat spicy food.
+
+They have made loving me look so effortless that I sometimes forget it is something people choose to do.
+
+And perhaps that is the dangerous thing about being loved well. You get so used to being considered that you forget how extraordinary it is to have people consider you. You start expecting thoughtfulness, not because you believe the world owes you anything, but because the people in your life have shown you what it looks like when someone genuinely wants to make your life a little better.
+
+I don't think I fully understood this until recently. I used to think that knowing what you deserve was something you figured out through experience. Through bad relationships, disappointing friendships, people who let you down, and all the stories about learning to choose yourself after someone else failed to choose you.
+
+But what if you could learn it the other way around, too?
+
+What if you could learn it by being loved?
+
+What if the reason you know you shouldn't have to beg someone to remember the things that matter to you is because you have friends who remember things you mentioned once, three months ago? What if the reason you know you deserve to be considered is because you have a family that will literally sort through a packet of chips to find one you can eat? What if the reason you know that affection should feel safe, generous, and a little bit silly is because you have spent years surrounded by people who make it feel that way?
+
+I think we spend so much time talking about the things we should never tolerate that we forget to talk about the things we should never have to convince ourselves are enough.
+
+And I know love isn't always going to look like a unicorn pen or a Diet Coke mug. Life is not a permanent birthday month, and I don't expect every person I meet to remember every little thing about me. People have their own lives, their own worries, their own ways of showing up. Love will sometimes be imperfect, inconvenient, and difficult to understand.
+
+But I do know that I never want to be in a position where I have to convince someone that the little things matter. I don't want to feel silly for being excited about something insignificant, or needy for wanting to be considered, or unreasonable for hoping that the person who claims to know me actually wants to know me.
+
+Because I have seen what it looks like when people pay attention. I have seen what it looks like when someone hears a passing comment and turns it into a gift, when someone spots something in a shop and immediately thinks, *that's so her*, when someone knows you well enough to hand you the least spicy chip without being asked.
+
+I have been loved in the details.
+
+And now I know that the details matter.
+
+Maybe this is what being spoiled really means. Not that you expect the world to revolve around you, or that everything must go your way, or that the people who love you must get everything right. But that you have been fortunate enough to experience a kind of love that makes you feel seen, and you have no intention of pretending that being unseen is an acceptable substitute.
+
+I want to be loved by people who are curious about me. People who remember. People who notice. People who find joy in the ridiculous little things that make me happy. People who make an effort not because they have been instructed to, but because somewhere in their day, they thought of me and wanted to do something with that thought.
+
+And I want to give that kind of love, too. To pay attention to the people around me, to remember their little things, to be the person who sees something ordinary and thinks of someone extraordinary.
+
+Because if there is one thing my birthday month has taught me, it is that love doesn't always announce itself. Sometimes it looks like a mug, a notebook, a unicorn pen, or a single chip rescued from an entire packet.
+
+Sometimes it looks like being known.
+
+So yes, I realised I'm spoiled. Entirely, ridiculously, embarrassingly spoiled by the people who love me.
+
+And I think I would like to stay that way.
+
+Not because I expect everyone to love me exactly as my friends and family do, but because they have taught me something I don't think I can unlearn. I know what it feels like to be considered. I know what it feels like to be remembered. I know what it feels like when people make space for the small, strange, particular things that make me who I am.
+
+And if this is how the people in my life see me, if this is how gently and thoughtfully they have chosen to love me, then why on earth would I ever settle for less?
+
+Yours, with a smile,
+
+Bhavana
