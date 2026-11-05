@@ -1,14 +1,11 @@
 ---
-title: "And now, as my final act of love i will let u go"
+title: "And now, as my final act of love, I will let u go"
 month: "November"
 year: 2026
 ---
-
-# as my final act of love i will let u go
-
 Dear Beautiful People,
 
-As my final act of love, I will let you go.
+If I cannot keep you, I hope I can at least leave you gently.
 
 Not because I have run out of reasons to stay, or because loving you has become difficult, or because I have suddenly found something better to do with all the love I have for you. Quite the opposite, actually. I think that is what makes this so difficult. I have never been more certain of how much I want something, and yet, I have never been more certain that I cannot have it.
 
